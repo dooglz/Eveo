@@ -10,6 +10,29 @@ BOREalis reproc:
 t1rig
 Veldspar - 71.1% - 40367Tritanium
  
+sylvite:
+pyreite x4000
+mex x400
+Evaporative Deposits x65  [16635]
+
+brimfulcosite
+Pyerite:2300
+Mexallon:460
+silicates:75 [16636]
+
+zeolites
+Pyerite:8000
+Mexallon:400
+AtmosGasses:65 [16634]
+
+
+1200 sylvite in 12km3
+
+booost
+Brimful Sylvite
+1477m3 per96.5s (15.3m3/2)  
+
+
 ids:
 pyroxeres:1224
 
