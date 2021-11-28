@@ -110,7 +110,8 @@ def GetRegionMarketHistory(region,typeIDString):
     hashID = typeIDString+str(region)
     if hashID in RegionMarketHistoryData:
         return RegionMarketHistoryData[hashID]
-    data = json.loads(requests.get("https://esi.evetech.net/latest/markets/"+str(region)+"/history/?datasource=tranquility&type_id="+str(typeIDString)).content)
+    jsonData = requests.get("https://esi.evetech.net/latest/markets/"+str(region)+"/history/?datasource=tranquility&type_id="+str(typeIDString)).content
+    data = json.loads(jsonData)
     if 'error' in data or len(data) == 0:
         data =  [{'average': 0.0, 'highest': 0.0, 'lowest': 0.0, 'order_count': 0.0, 'volume': 0.0}]
     RegionMarketHistoryData[hashID] = data  
@@ -233,6 +234,9 @@ def ConstructBuildTree():
     RawMaterials = {}
     PIonlyBuildTree = {}
     for bpID in blueprintData:
+        if not bpID in typeData or typeData[bpID]["published"] == False:
+            #print ("BP is unpublished "+str(bpID))
+            continue
         #Bail if this is not something valid that builds something valid
         if( not "manufacturing" in blueprintData[bpID]["activities"] or not "products" in blueprintData[bpID]["activities"]["manufacturing"] ):
             continue
@@ -246,6 +250,10 @@ def ConstructBuildTree():
         iMakeThisID = productData[0]["typeID"]
         if not iMakeThisID in typeData:
             print ("BP makes an uknown product! "+str(bpID))
+            continue
+        #
+        if typeData[iMakeThisID]["published"] == False :
+            print ("BP makes an unpublished product! "+str(bpID))
             continue
         #
         IDstring = str(iMakeThisID)
@@ -445,6 +453,49 @@ def PrintBom(bom,recursive=False,prefix="",printHeadder=True):
             PrintBom(subBom,recursive,myprefix,False)
 
 
+
+def GetMaterialCoverage(ItemIDstring,itemsIhaveList):
+    externalIsk = 0
+    haveIsk = 0
+    for material in TheBuildTree[ItemIDstring]["bom"]["materials"]:
+        materialPrice = GetPrice(material) * TheBuildTree[ItemIDstring]["bom"]["materials"][material]
+        if material in itemsIhaveList:
+            haveIsk += materialPrice
+        else:
+            externalIsk += materialPrice
+    percentageHave = haveIsk / (externalIsk+haveIsk)
+    return {"marketPrice":GetPrice(ItemIDstring), "haveIsk":haveIsk,"externalIsk":externalIsk,"percentageHave":percentageHave}
+
+
+def FindProfitableWith(materialList,materialProfitThresh=2.0,orderCountThresh=100,haveIskPercentThresh = 0.7):
+    data = []
+    for buildItemID in TheBuildTree:
+        buildItem  = TheBuildTree[buildItemID]
+        materialProfit = buildItem["bom"]["materialProfit"]
+        if materialProfit < materialProfitThresh:
+            continue
+        coverage = GetMaterialCoverage(buildItemID,materialList)
+        if coverage["percentageHave"] < haveIskPercentThresh:
+            continue
+        orderCount =  AverageRegionMarketHistory(GetRegionMarketHistory(Regions["FORGE"],buildItemID))["order_count"]
+        if orderCount < orderCountThresh:
+            continue
+        datapoint = coverage
+        datapoint["itemIDString"] = buildItemID
+        datapoint["materialProfit"] = materialProfit
+        datapoint["order_count"] = orderCount
+        data.append(datapoint)
+    return data
+
+def PrintProfitableList(profitableList):
+    sortedlist = sorted(profitableList,  key=lambda thing:thing["materialProfit"])
+    for dataPoint in sortedlist:
+        buildItemIDstring = dataPoint["itemIDString"]
+        buildItem = TheBuildTree[buildItemIDstring]
+        print (buildItemIDstring + "\t - " + NameOf(buildItemIDstring)+ " "+ formatPriceBulk(buildItemIDstring, buildItem["quantityMade"])+ " --  mProfit:" + f'{dataPoint["materialProfit"]:,.2f}' + " -- OrderCount:"+f'{dataPoint["order_count"]:,.1f}' + " -- Have:"+f'{dataPoint["percentageHave"]:,.1f}%')
+
+
+
 ConstructBuildTree()
 PrintBom(getFullBoM("17404"),True)
 
@@ -459,3 +510,81 @@ AverageRegionMarketHistory(GetRegionMarketHistory(Regions["FORGE"],"28750"))["or
 
 
 PrintBuildableList(list(filter(lambda x: (AverageRegionMarketHistory(GetRegionMarketHistory(Regions["FORGE"],x))["order_count"]> 100 and TheBuildTree[x]["bom"]["materialProfit"]>2.0), sortedBuildables)))
+
+pprint.pprint(sorted(FindProfitableWith(itemsIHave),  key=lambda thing:thing["materialProfit"]))
+
+
+PrintProfitableList(FindProfitableWith(itemsIHave,1.8,80,0.7))
+
+
+
+
+
+SuprCnDuctrs
+Coolant
+Rocket Fuel
+SyntheticOil
+Oxides
+SilictGlass
+Transmitter
+WCooledCPU
+MechaParts
+ConstrcnBlcks
+EnricdUranium
+CnsumrELctrics
+MiniElectronics
+Nanites
+Biocells
+mFiber Shielding
+Viral Agent
+Fertilizer
+GeneEnh Livstok
+Livestock
+Polytextiles
+Test Cultures
+SupertnsilePlstcs
+Polyaramids
+UkomiSuperCnductr
+Condensates
+Camera Drones
+SyntheticSynapses
+HighTechTransmitr
+GelMatrixBiopaste
+Supercomputers
+Robotics
+Smartfab Units
+Nuclear Reactors
+Guidance Systems
+Neocoms
+Planetary Vehicles
+BioT RsrchRports
+Vaccines
+IndustrialExplsvs
+Hermetic Membranes
+Tcran Microcotrller
+Data Chips
+HazmatDetectSystems
+CryoprotctntSolution
+OrgancMortrAplcators
+Sterile Conduits
+Nano-Factory
+SlfHarmonizngPwerCore
+RcursiveComputngModule
+Broadcast Node
+IntgrityRsponseDrones
+Wetware Mainframe
+Water
+Plasmoids
+Electrolytes
+Oxygen
+Oxidizing Compound
+Reactive Metals
+Precious Metals
+Toxic Metals
+Chiral Structures
+Silicon
+Bacteria
+Biomass
+Proteins
+Biofuels
+Industrial Fibers

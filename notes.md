@@ -64,3 +64,44 @@ actual:duration:110.56s
 
 
 upwel sturcture is 320 fuel units/day chaos
+
+
+
+
+cheap iso at 49isk/unit
+
+17.30 pye
+4.34 trit
+2784isk job cost
+250 runs producing 25000
+
+164x250=41000,x4.32 = 177'120
+17x250=4250,x17.3   =  73'525
+3x250=750,x49       =  36'750
+                    +  287'395
+
+
+
+
+709'250 isk value at 28.37 unit
+24hour
+
+x2.47yeild 
+
+
+
+700 brimful c - 140 iskper - 1-040-000isk
+700*15
+
+365 refine
+365*2900 = 1-058-500isk
+
+
+oxy 20/30mins
+60/hr
+
+600ca
+
+B igb l u e
+
+

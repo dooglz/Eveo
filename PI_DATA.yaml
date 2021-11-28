@@ -1,0 +1,1764 @@
+44:
+  amount: 5
+  amountperHour: 5.0
+  cycleTimeHours: 1.0
+  cycleTimeMinutes: 3600
+  inputs:
+  - amount: 40
+    name: Precious Metals
+    perhour: 40.0
+    typeID: 2399
+  - amount: 40
+    name: Toxic Metals
+    perhour: 40.0
+    typeID: 2400
+  materialCostEach: 5268.4
+  materialCostforRun: 26342
+  name: Enriched Uranium
+  priceEach: 9079.25
+  priceForRunQty: 45396.25
+  profitEach: 1.7233410523118975
+  profitIskEach: 3810
+  profitIskRun: 19054
+  profitRun: 1.7233410523118973
+  shortName: EnrichedUrnium
+  tech: 2
+  typeID: 44
+2312:
+  amount: 5
+  amountperHour: 5.0
+  cycleTimeHours: 1.0
+  cycleTimeMinutes: 3600
+  inputs:
+  - amount: 40
+    name: Oxygen
+    perhour: 40.0
+    typeID: 3683
+  - amount: 40
+    name: Biomass
+    perhour: 40.0
+    typeID: 3779
+  materialCostEach: 8461.6
+  materialCostforRun: 42308
+  name: Supertensile Plastics
+  priceEach: 9182.36
+  priceForRunQty: 45911.8
+  profitEach: 1.0851801077810344
+  profitIskEach: 720
+  profitIskRun: 3603
+  profitRun: 1.0851801077810344
+  shortName: SuprtnsilePlastics
+  tech: 2
+  typeID: 2312
+2317:
+  amount: 5
+  amountperHour: 5.0
+  cycleTimeHours: 1.0
+  cycleTimeMinutes: 3600
+  inputs:
+  - amount: 40
+    name: Oxidizing Compound
+    perhour: 40.0
+    typeID: 2392
+  - amount: 40
+    name: Oxygen
+    perhour: 40.0
+    typeID: 3683
+  materialCostEach: 8894.8
+  materialCostforRun: 44474
+  name: Oxides
+  priceEach: 5621.7
+  priceForRunQty: 28108.5
+  profitEach: 0.6320209560642174
+  profitIskEach: -3274
+  profitIskRun: -16366
+  profitRun: 0.6320209560642173
+  shortName: Oxids
+  tech: 2
+  typeID: 2317
+2319:
+  amount: 5
+  amountperHour: 5.0
+  cycleTimeHours: 1.0
+  cycleTimeMinutes: 3600
+  inputs:
+  - amount: 40
+    name: Bacteria
+    perhour: 40.0
+    typeID: 2393
+  - amount: 40
+    name: Water
+    perhour: 40.0
+    typeID: 3645
+  materialCostEach: 9805.6
+  materialCostforRun: 49028
+  name: Test Cultures
+  priceEach: 5006.29
+  priceForRunQty: 25031.45
+  profitEach: 0.5105541731255608
+  profitIskEach: -4800
+  profitIskRun: -23997
+  profitRun: 0.510554173125561
+  shortName: TstCulturs
+  tech: 2
+  typeID: 2319
+2321:
+  amount: 5
+  amountperHour: 5.0
+  cycleTimeHours: 1.0
+  cycleTimeMinutes: 3600
+  inputs:
+  - amount: 40
+    name: Oxidizing Compound
+    perhour: 40.0
+    typeID: 2392
+  - amount: 40
+    name: Industrial Fibers
+    perhour: 40.0
+    typeID: 2397
+  materialCostEach: 9587.4
+  materialCostforRun: 47937
+  name: Polyaramids
+  priceEach: 10829.67
+  priceForRunQty: 54148.35
+  profitEach: 1.129573189811628
+  profitIskEach: 1242
+  profitIskRun: 6211
+  profitRun: 1.1295731898116277
+  shortName: Polyaramids
+  tech: 2
+  typeID: 2321
+2327:
+  amount: 5
+  amountperHour: 5.0
+  cycleTimeHours: 1.0
+  cycleTimeMinutes: 3600
+  inputs:
+  - amount: 40
+    name: Industrial Fibers
+    perhour: 40.0
+    typeID: 2397
+  - amount: 40
+    name: Silicon
+    perhour: 40.0
+    typeID: 9828
+  materialCostEach: 10535.6
+  materialCostforRun: 52678
+  name: Microfiber Shielding
+  priceEach: 11771.2
+  priceForRunQty: 58856.0
+  profitEach: 1.1172785603098068
+  profitIskEach: 1235
+  profitIskRun: 6178
+  profitRun: 1.1172785603098068
+  shortName: MicrfibrShielding
+  tech: 2
+  typeID: 2327
+2328:
+  amount: 5
+  amountperHour: 5.0
+  cycleTimeHours: 1.0
+  cycleTimeMinutes: 3600
+  inputs:
+  - amount: 40
+    name: Reactive Metals
+    perhour: 40.0
+    typeID: 2398
+  - amount: 40
+    name: Water
+    perhour: 40.0
+    typeID: 3645
+  materialCostEach: 6959.2
+  materialCostforRun: 34796
+  name: Water-Cooled CPU
+  priceEach: 4348.79
+  priceForRunQty: 21743.95
+  profitEach: 0.6248979767789401
+  profitIskEach: -2611
+  profitIskRun: -13053
+  profitRun: 0.6248979767789401
+  shortName: Watr-CooledCPU
+  tech: 2
+  typeID: 2328
+2329:
+  amount: 5
+  amountperHour: 5.0
+  cycleTimeHours: 1.0
+  cycleTimeMinutes: 3600
+  inputs:
+  - amount: 40
+    name: Biofuels
+    perhour: 40.0
+    typeID: 2396
+  - amount: 40
+    name: Precious Metals
+    perhour: 40.0
+    typeID: 2399
+  materialCostEach: 4515.4
+  materialCostforRun: 22577
+  name: Biocells
+  priceEach: 6722.82
+  priceForRunQty: 33614.1
+  profitEach: 1.4888647738849272
+  profitIskEach: 2207
+  profitIskRun: 11037
+  profitRun: 1.488864773884927
+  shortName: Biocells
+  tech: 2
+  typeID: 2329
+2344:
+  amount: 3
+  amountperHour: 3.0
+  cycleTimeHours: 1.0
+  cycleTimeMinutes: 3600
+  inputs:
+  - amount: 10
+    name: Oxides
+    perhour: 10.0
+    typeID: 2317
+  - amount: 10
+    name: Coolant
+    perhour: 10.0
+    typeID: 9832
+  materialCostEach: 52352.0
+  materialCostforRun: 157056
+  name: Condensates
+  priceEach: 36708.33
+  priceForRunQty: 110124.99
+  profitEach: 0.7011829538508558
+  profitIskEach: -15644
+  profitIskRun: -46932
+  profitRun: 0.7011829538508558
+  shortName: Condnsats
+  tech: 3
+  typeID: 2344
+2345:
+  amount: 3
+  amountperHour: 3.0
+  cycleTimeHours: 1.0
+  cycleTimeMinutes: 3600
+  inputs:
+  - amount: 10
+    name: Silicate Glass
+    perhour: 10.0
+    typeID: 3697
+  - amount: 10
+    name: Rocket Fuel
+    perhour: 10.0
+    typeID: 9830
+  materialCostEach: 69216.66666666667
+  materialCostforRun: 207650
+  name: Camera Drones
+  priceEach: 70361.51
+  priceForRunQty: 211084.52999999997
+  profitEach: 1.016539995184204
+  profitIskEach: 1144
+  profitIskRun: 3434
+  profitRun: 1.016539995184204
+  shortName: CamraDrns
+  tech: 3
+  typeID: 2345
+2346:
+  amount: 3
+  amountperHour: 3.0
+  cycleTimeHours: 1.0
+  cycleTimeMinutes: 3600
+  inputs:
+  - amount: 10
+    name: Supertensile Plastics
+    perhour: 10.0
+    typeID: 2312
+  - amount: 10
+    name: Test Cultures
+    perhour: 10.0
+    typeID: 2319
+  materialCostEach: 47295.666666666664
+  materialCostforRun: 141887
+  name: Synthetic Synapses
+  priceEach: 72321.67
+  priceForRunQty: 216965.01
+  profitEach: 1.5291394560460085
+  profitIskEach: 25026
+  profitIskRun: 75078
+  profitRun: 1.5291394560460085
+  shortName: SyntheticSynapss
+  tech: 3
+  typeID: 2346
+2348:
+  amount: 3
+  amountperHour: 3.0
+  cycleTimeHours: 1.0
+  cycleTimeMinutes: 3600
+  inputs:
+  - amount: 10
+    name: Oxides
+    perhour: 10.0
+    typeID: 2317
+  - amount: 10
+    name: Biocells
+    perhour: 10.0
+    typeID: 2329
+  - amount: 10
+    name: Superconductors
+    perhour: 10.0
+    typeID: 9838
+  materialCostEach: 67905.33333333333
+  materialCostforRun: 203716
+  name: Gel-Matrix Biopaste
+  priceEach: 98514.3
+  priceForRunQty: 295542.9
+  profitEach: 1.450759390524063
+  profitIskEach: 30608
+  profitIskRun: 91826
+  profitRun: 1.450759390524063
+  shortName: Gel-MatrixBiopaste
+  tech: 3
+  typeID: 2348
+2349:
+  amount: 3
+  amountperHour: 3.0
+  cycleTimeHours: 1.0
+  cycleTimeMinutes: 3600
+  inputs:
+  - amount: 10
+    name: Water-Cooled CPU
+    perhour: 10.0
+    typeID: 2328
+  - amount: 10
+    name: Coolant
+    perhour: 10.0
+    typeID: 9832
+  - amount: 10
+    name: Consumer Electronics
+    perhour: 10.0
+    typeID: 9836
+  materialCostEach: 68088.66666666667
+  materialCostforRun: 204266
+  name: Supercomputers
+  priceEach: 86504.74
+  priceForRunQty: 259514.22000000003
+  profitEach: 1.270471933655136
+  profitIskEach: 18416
+  profitIskRun: 55248
+  profitRun: 1.270471933655136
+  shortName: Suprcomputrs
+  tech: 3
+  typeID: 2349
+2351:
+  amount: 3
+  amountperHour: 3.0
+  cycleTimeHours: 1.0
+  cycleTimeMinutes: 3600
+  inputs:
+  - amount: 10
+    name: Construction Blocks
+    perhour: 10.0
+    typeID: 3828
+  - amount: 10
+    name: Miniature Electronics
+    perhour: 10.0
+    typeID: 9842
+  materialCostEach: 54705.666666666664
+  materialCostforRun: 164117
+  name: Smartfab Units
+  priceEach: 58319.29
+  priceForRunQty: 174957.87
+  profitEach: 1.0660557407215585
+  profitIskEach: 3613
+  profitIskRun: 10840
+  profitRun: 1.0660557407215583
+  shortName: SmartfabUnits
+  tech: 3
+  typeID: 2351
+2352:
+  amount: 3
+  amountperHour: 3.0
+  cycleTimeHours: 1.0
+  cycleTimeMinutes: 3600
+  inputs:
+  - amount: 10
+    name: Enriched Uranium
+    perhour: 10.0
+    typeID: 44
+  - amount: 10
+    name: Microfiber Shielding
+    perhour: 10.0
+    typeID: 2327
+  materialCostEach: 69501.66666666667
+  materialCostforRun: 208505
+  name: Nuclear Reactors
+  priceEach: 63140.36
+  priceForRunQty: 189421.08000000002
+  profitEach: 0.9084726025754778
+  profitIskEach: -6362
+  profitIskRun: -19084
+  profitRun: 0.9084726025754779
+  shortName: NuclearReactors
+  tech: 3
+  typeID: 2352
+2354:
+  amount: 3
+  amountperHour: 3.0
+  cycleTimeHours: 1.0
+  cycleTimeMinutes: 3600
+  inputs:
+  - amount: 10
+    name: Biocells
+    perhour: 10.0
+    typeID: 2329
+  - amount: 10
+    name: Silicate Glass
+    perhour: 10.0
+    typeID: 3697
+  materialCostEach: 61129.666666666664
+  materialCostforRun: 183389
+  name: Neocoms
+  priceEach: 68204.25
+  priceForRunQty: 204612.75
+  profitEach: 1.1157307690210427
+  profitIskEach: 7074
+  profitIskRun: 21223
+  profitRun: 1.1157307690210427
+  shortName: Neocoms
+  tech: 3
+  typeID: 2354
+2358:
+  amount: 3
+  amountperHour: 3.0
+  cycleTimeHours: 1.0
+  cycleTimeMinutes: 3600
+  inputs:
+  - amount: 10
+    name: Nanites
+    perhour: 10.0
+    typeID: 2463
+  - amount: 10
+    name: Livestock
+    perhour: 10.0
+    typeID: 3725
+  - amount: 10
+    name: Construction Blocks
+    perhour: 10.0
+    typeID: 3828
+  materialCostEach: 64944.333333333336
+  materialCostforRun: 194833
+  name: Biotech Research Reports
+  priceEach: 67127.06
+  priceForRunQty: 201381.18
+  profitEach: 1.0336091935144456
+  profitIskEach: 2182
+  profitIskRun: 6548
+  profitRun: 1.0336091935144456
+  shortName: BiotechRsearchReports
+  tech: 3
+  typeID: 2358
+2360:
+  amount: 3
+  amountperHour: 3.0
+  cycleTimeHours: 1.0
+  cycleTimeMinutes: 3600
+  inputs:
+  - amount: 10
+    name: Fertilizer
+    perhour: 10.0
+    typeID: 3693
+  - amount: 10
+    name: Polytextiles
+    perhour: 10.0
+    typeID: 3695
+  materialCostEach: 43003.333333333336
+  materialCostforRun: 129010
+  name: Industrial Explosives
+  priceEach: 40018.71
+  priceForRunQty: 120056.13
+  profitEach: 0.9305955352298271
+  profitIskEach: -2985
+  profitIskRun: -8954
+  profitRun: 0.9305955352298272
+  shortName: IndustrilExplosivs
+  tech: 3
+  typeID: 2360
+2361:
+  amount: 3
+  amountperHour: 3.0
+  cycleTimeHours: 1.0
+  cycleTimeMinutes: 3600
+  inputs:
+  - amount: 10
+    name: Polyaramids
+    perhour: 10.0
+    typeID: 2321
+  - amount: 10
+    name: Genetically Enhanced Livestock
+    perhour: 10.0
+    typeID: 15317
+  materialCostEach: 59850.666666666664
+  materialCostforRun: 179552
+  name: Hermetic Membranes
+  priceEach: 79282.13
+  priceForRunQty: 237846.39
+  profitEach: 1.3246657792728571
+  profitIskEach: 19431
+  profitIskRun: 58294
+  profitRun: 1.324665779272857
+  shortName: HrmeticMembrns
+  tech: 3
+  typeID: 2361
+2366:
+  amount: 3
+  amountperHour: 3.0
+  cycleTimeHours: 1.0
+  cycleTimeMinutes: 3600
+  inputs:
+  - amount: 10
+    name: Polytextiles
+    perhour: 10.0
+    typeID: 3695
+  - amount: 10
+    name: Viral Agent
+    perhour: 10.0
+    typeID: 3775
+  - amount: 10
+    name: Transmitter
+    perhour: 10.0
+    typeID: 9840
+  materialCostEach: 63222.333333333336
+  materialCostforRun: 189667
+  name: Hazmat Detection Systems
+  priceEach: 58500.45
+  priceForRunQty: 175501.34999999998
+  profitEach: 0.9253130486589654
+  profitIskEach: -4722
+  profitIskRun: -14166
+  profitRun: 0.9253130486589654
+  shortName: HazmatDetectionSystems
+  tech: 3
+  typeID: 2366
+2367:
+  amount: 3
+  amountperHour: 3.0
+  cycleTimeHours: 1.0
+  cycleTimeMinutes: 3600
+  inputs:
+  - amount: 10
+    name: Test Cultures
+    perhour: 10.0
+    typeID: 2319
+  - amount: 10
+    name: Synthetic Oil
+    perhour: 10.0
+    typeID: 3691
+  - amount: 10
+    name: Fertilizer
+    perhour: 10.0
+    typeID: 3693
+  materialCostEach: 70371.33333333333
+  materialCostforRun: 211114
+  name: Cryoprotectant Solution
+  priceEach: 101595.78
+  priceForRunQty: 304787.33999999997
+  profitEach: 1.4437097492350106
+  profitIskEach: 31224
+  profitIskRun: 93673
+  profitRun: 1.4437097492350104
+  shortName: CryoprtectntSolution
+  tech: 3
+  typeID: 2367
+2389:
+  amount: 20
+  amountperHour: 40.0
+  cycleTimeHours: 0.5
+  cycleTimeMinutes: 1800
+  inputs:
+  - amount: 3000
+    name: Suspended Plasma
+    perhour: 6000.0
+    typeID: 2308
+  materialCostEach: 265.5
+  materialCostforRun: 5310
+  name: Plasmoids
+  priceEach: 311.06
+  priceForRunQty: 6221.2
+  profitEach: 1.1716007532956685
+  profitIskEach: 45
+  profitIskRun: 911
+  profitRun: 1.1716007532956685
+  shortName: Plasmoids
+  tech: 1
+  typeID: 2389
+2390:
+  amount: 20
+  amountperHour: 40.0
+  cycleTimeHours: 0.5
+  cycleTimeMinutes: 1800
+  inputs:
+  - amount: 3000
+    name: Ionic Solutions
+    perhour: 6000.0
+    typeID: 2309
+  materialCostEach: 546.0
+  materialCostforRun: 10920
+  name: Electrolytes
+  priceEach: 299.49
+  priceForRunQty: 5989.8
+  profitEach: 0.5485164835164835
+  profitIskEach: -247
+  profitIskRun: -4931
+  profitRun: 0.5485164835164835
+  shortName: Electrlyts
+  tech: 1
+  typeID: 2390
+2392:
+  amount: 20
+  amountperHour: 40.0
+  cycleTimeHours: 0.5
+  cycleTimeMinutes: 1800
+  inputs:
+  - amount: 3000
+    name: Reactive Gas
+    perhour: 6000.0
+    typeID: 2311
+  materialCostEach: 418.5
+  materialCostforRun: 8370
+  name: Oxidizing Compound
+  priceEach: 498.82
+  priceForRunQty: 9976.4
+  profitEach: 1.1919235364396654
+  profitIskEach: 80
+  profitIskRun: 1606
+  profitRun: 1.1919235364396654
+  shortName: OxidizingCompound
+  tech: 1
+  typeID: 2392
+2393:
+  amount: 20
+  amountperHour: 40.0
+  cycleTimeHours: 0.5
+  cycleTimeMinutes: 1800
+  inputs:
+  - amount: 3000
+    name: Microorganisms
+    perhour: 6000.0
+    typeID: 2073
+  materialCostEach: 355.5
+  materialCostforRun: 7110
+  name: Bacteria
+  priceEach: 613.71
+  priceForRunQty: 12274.2
+  profitEach: 1.7263291139240506
+  profitIskEach: 258
+  profitIskRun: 5164
+  profitRun: 1.7263291139240506
+  shortName: Bactria
+  tech: 1
+  typeID: 2393
+2395:
+  amount: 20
+  amountperHour: 40.0
+  cycleTimeHours: 0.5
+  cycleTimeMinutes: 1800
+  inputs:
+  - amount: 3000
+    name: Complex Organisms
+    perhour: 6000.0
+    typeID: 2287
+  materialCostEach: 966.0
+  materialCostforRun: 19320
+  name: Proteins
+  priceEach: 1060.85
+  priceForRunQty: 21217.0
+  profitEach: 1.0981884057971014
+  profitIskEach: 94
+  profitIskRun: 1897
+  profitRun: 1.0981884057971014
+  shortName: Prteins
+  tech: 1
+  typeID: 2395
+2396:
+  amount: 20
+  amountperHour: 40.0
+  cycleTimeHours: 0.5
+  cycleTimeMinutes: 1800
+  inputs:
+  - amount: 3000
+    name: Carbon Compounds
+    perhour: 6000.0
+    typeID: 2288
+  materialCostEach: 136.5
+  materialCostforRun: 2730
+  name: Biofuels
+  priceEach: 152.59
+  priceForRunQty: 3051.8
+  profitEach: 1.117875457875458
+  profitIskEach: 16
+  profitIskRun: 321
+  profitRun: 1.117875457875458
+  shortName: Biofuels
+  tech: 1
+  typeID: 2396
+2397:
+  amount: 20
+  amountperHour: 40.0
+  cycleTimeHours: 0.5
+  cycleTimeMinutes: 1800
+  inputs:
+  - amount: 3000
+    name: Autotrophs
+    perhour: 6000.0
+    typeID: 2305
+  materialCostEach: 994.5
+  materialCostforRun: 19890
+  name: Industrial Fibers
+  priceEach: 699.6
+  priceForRunQty: 13992.0
+  profitEach: 0.7034690799396682
+  profitIskEach: -295
+  profitIskRun: -5898
+  profitRun: 0.7034690799396682
+  shortName: IndustrilFibrs
+  tech: 1
+  typeID: 2397
+2398:
+  amount: 20
+  amountperHour: 40.0
+  cycleTimeHours: 0.5
+  cycleTimeMinutes: 1800
+  inputs:
+  - amount: 3000
+    name: Base Metals
+    perhour: 6000.0
+    typeID: 2267
+  materialCostEach: 250.5
+  materialCostforRun: 5010
+  name: Reactive Metals
+  priceEach: 257.91
+  priceForRunQty: 5158.200000000001
+  profitEach: 1.0295808383233533
+  profitIskEach: 7
+  profitIskRun: 148
+  profitRun: 1.0295808383233533
+  shortName: ReactiveMetls
+  tech: 1
+  typeID: 2398
+2399:
+  amount: 20
+  amountperHour: 40.0
+  cycleTimeHours: 0.5
+  cycleTimeMinutes: 1800
+  inputs:
+  - amount: 3000
+    name: Noble Metals
+    perhour: 6000.0
+    typeID: 2270
+  materialCostEach: 646.5
+  materialCostforRun: 12930
+  name: Precious Metals
+  priceEach: 411.83
+  priceForRunQty: 8236.6
+  profitEach: 0.637014694508894
+  profitIskEach: -235
+  profitIskRun: -4694
+  profitRun: 0.637014694508894
+  shortName: PreciousMetls
+  tech: 1
+  typeID: 2399
+2400:
+  amount: 20
+  amountperHour: 40.0
+  cycleTimeHours: 0.5
+  cycleTimeMinutes: 1800
+  inputs:
+  - amount: 3000
+    name: Heavy Metals
+    perhour: 6000.0
+    typeID: 2272
+  materialCostEach: 231.0
+  materialCostforRun: 4620
+  name: Toxic Metals
+  priceEach: 246.72
+  priceForRunQty: 4934.4
+  profitEach: 1.0680519480519481
+  profitIskEach: 15
+  profitIskRun: 314
+  profitRun: 1.068051948051948
+  shortName: ToxicMetls
+  tech: 1
+  typeID: 2400
+2401:
+  amount: 20
+  amountperHour: 40.0
+  cycleTimeHours: 0.5
+  cycleTimeMinutes: 1800
+  inputs:
+  - amount: 3000
+    name: Non-CS Crystals
+    perhour: 6000.0
+    typeID: 2306
+  materialCostEach: 708.0
+  materialCostforRun: 14160
+  name: Chiral Structures
+  priceEach: 449.05
+  priceForRunQty: 8981.0
+  profitEach: 0.6342514124293785
+  profitIskEach: -259
+  profitIskRun: -5179
+  profitRun: 0.6342514124293785
+  shortName: ChirlStructurs
+  tech: 1
+  typeID: 2401
+2463:
+  amount: 5
+  amountperHour: 5.0
+  cycleTimeHours: 1.0
+  cycleTimeMinutes: 3600
+  inputs:
+  - amount: 40
+    name: Bacteria
+    perhour: 40.0
+    typeID: 2393
+  - amount: 40
+    name: Reactive Metals
+    perhour: 40.0
+    typeID: 2398
+  materialCostEach: 6973.0
+  materialCostforRun: 34865
+  name: Nanites
+  priceEach: 4919.97
+  priceForRunQty: 24599.850000000002
+  profitEach: 0.7055743582389216
+  profitIskEach: -2054
+  profitIskRun: -10266
+  profitRun: 0.7055743582389216
+  shortName: Nnits
+  tech: 2
+  typeID: 2463
+2867:
+  amount: 1
+  amountperHour: 1.0
+  cycleTimeHours: 1.0
+  cycleTimeMinutes: 3600
+  inputs:
+  - amount: 6
+    name: Neocoms
+    perhour: 6.0
+    typeID: 2354
+  - amount: 6
+    name: Data Chips
+    perhour: 6.0
+    typeID: 17392
+  - amount: 6
+    name: High-Tech Transmitters
+    perhour: 6.0
+    typeID: 17898
+  materialCostEach: 1340960.0
+  materialCostforRun: 1340960
+  name: Broadcast Node
+  priceEach: 1613556.51
+  priceForRunQty: 1613556.51
+  profitEach: 1.2032845946187807
+  profitIskEach: 272596
+  profitIskRun: 272596
+  profitRun: 1.2032845946187807
+  shortName: BradcastNode
+  tech: 4
+  typeID: 2867
+2868:
+  amount: 1
+  amountperHour: 1.0
+  cycleTimeHours: 1.0
+  cycleTimeMinutes: 3600
+  inputs:
+  - amount: 6
+    name: Gel-Matrix Biopaste
+    perhour: 6.0
+    typeID: 2348
+  - amount: 6
+    name: Hazmat Detection Systems
+    perhour: 6.0
+    typeID: 2366
+  - amount: 6
+    name: Planetary Vehicles
+    perhour: 6.0
+    typeID: 9846
+  materialCostEach: 1390138.0
+  materialCostforRun: 1390138
+  name: Integrity Response Drones
+  priceEach: 1644426.87
+  priceForRunQty: 1644426.87
+  profitEach: 1.182923472345911
+  profitIskEach: 254288
+  profitIskRun: 254288
+  profitRun: 1.182923472345911
+  shortName: IntegrityRsponseDrns
+  tech: 4
+  typeID: 2868
+2869:
+  amount: 1
+  amountperHour: 1.0
+  cycleTimeHours: 1.0
+  cycleTimeMinutes: 3600
+  inputs:
+  - amount: 6
+    name: Industrial Explosives
+    perhour: 6.0
+    typeID: 2360
+  - amount: 40
+    name: Reactive Metals
+    perhour: 40.0
+    typeID: 2398
+  - amount: 6
+    name: Ukomi Superconductors
+    perhour: 6.0
+    typeID: 17136
+  materialCostEach: 708168.0
+  materialCostforRun: 708168
+  name: Nano-Factory
+  priceEach: 727124.48
+  priceForRunQty: 727124.48
+  profitEach: 1.0267683374566487
+  profitIskEach: 18956
+  profitIskRun: 18956
+  profitRun: 1.0267683374566487
+  shortName: Nno-Factory
+  tech: 4
+  typeID: 2869
+2870:
+  amount: 1
+  amountperHour: 1.0
+  cycleTimeHours: 1.0
+  cycleTimeMinutes: 3600
+  inputs:
+  - amount: 6
+    name: Condensates
+    perhour: 6.0
+    typeID: 2344
+  - amount: 40
+    name: Bacteria
+    perhour: 40.0
+    typeID: 2393
+  - amount: 6
+    name: Robotics
+    perhour: 6.0
+    typeID: 9848
+  materialCostEach: 612556.0
+  materialCostforRun: 612556
+  name: Organic Mortar Applicators
+  priceEach: 757501.56
+  priceForRunQty: 757501.56
+  profitEach: 1.236624178034335
+  profitIskEach: 144945
+  profitIskRun: 144945
+  profitRun: 1.236624178034335
+  shortName: OrgnicMortarApplicators
+  tech: 4
+  typeID: 2870
+2871:
+  amount: 1
+  amountperHour: 1.0
+  cycleTimeHours: 1.0
+  cycleTimeMinutes: 3600
+  inputs:
+  - amount: 6
+    name: Synthetic Synapses
+    perhour: 6.0
+    typeID: 2346
+  - amount: 6
+    name: Guidance Systems
+    perhour: 6.0
+    typeID: 9834
+  - amount: 6
+    name: Transcranial Microcontrollers
+    perhour: 6.0
+    typeID: 12836
+  materialCostEach: 1178822.0
+  materialCostforRun: 1178822
+  name: Recursive Computing Module
+  priceEach: 1035262.32
+  priceForRunQty: 1035262.32
+  profitEach: 0.8782176783263291
+  profitIskEach: -143560
+  profitIskRun: -143560
+  profitRun: 0.8782176783263291
+  shortName: RecursiveComputingModule
+  tech: 4
+  typeID: 2871
+2872:
+  amount: 1
+  amountperHour: 1.0
+  cycleTimeHours: 1.0
+  cycleTimeMinutes: 3600
+  inputs:
+  - amount: 6
+    name: Camera Drones
+    perhour: 6.0
+    typeID: 2345
+  - amount: 6
+    name: Nuclear Reactors
+    perhour: 6.0
+    typeID: 2352
+  - amount: 6
+    name: Hermetic Membranes
+    perhour: 6.0
+    typeID: 2361
+  materialCostEach: 1276704.0
+  materialCostforRun: 1276704
+  name: Self-Harmonizing Power Core
+  priceEach: 1492749.2
+  priceForRunQty: 1492749.2
+  profitEach: 1.1692210567210566
+  profitIskEach: 216045
+  profitIskRun: 216045
+  profitRun: 1.1692210567210566
+  shortName: Self-HarmonizingPowrCore
+  tech: 4
+  typeID: 2872
+2875:
+  amount: 1
+  amountperHour: 1.0
+  cycleTimeHours: 1.0
+  cycleTimeMinutes: 3600
+  inputs:
+  - amount: 6
+    name: Smartfab Units
+    perhour: 6.0
+    typeID: 2351
+  - amount: 40
+    name: Water
+    perhour: 40.0
+    typeID: 3645
+  - amount: 6
+    name: Vaccines
+    perhour: 6.0
+    typeID: 28974
+  materialCostEach: 654967.0
+  materialCostforRun: 654967
+  name: Sterile Conduits
+  priceEach: 979328.49
+  priceForRunQty: 979328.49
+  profitEach: 1.4952333323663636
+  profitIskEach: 324361
+  profitIskRun: 324361
+  profitRun: 1.4952333323663636
+  shortName: StrileConduits
+  tech: 4
+  typeID: 2875
+2876:
+  amount: 1
+  amountperHour: 1.0
+  cycleTimeHours: 1.0
+  cycleTimeMinutes: 3600
+  inputs:
+  - amount: 6
+    name: Supercomputers
+    perhour: 6.0
+    typeID: 2349
+  - amount: 6
+    name: Biotech Research Reports
+    perhour: 6.0
+    typeID: 2358
+  - amount: 6
+    name: Cryoprotectant Solution
+    perhour: 6.0
+    typeID: 2367
+  materialCostEach: 1531366.0
+  materialCostforRun: 1531366
+  name: Wetware Mainframe
+  priceEach: 1663998.35
+  priceForRunQty: 1663998.35
+  profitEach: 1.086610483711928
+  profitIskEach: 132632
+  profitIskRun: 132632
+  profitRun: 1.086610483711928
+  shortName: WetwareMainframe
+  tech: 4
+  typeID: 2876
+3645:
+  amount: 20
+  amountperHour: 40.0
+  cycleTimeHours: 0.5
+  cycleTimeMinutes: 1800
+  inputs:
+  - amount: 3000
+    name: Aqueous Liquids
+    perhour: 6000.0
+    typeID: 2268
+  materialCostEach: 414.0
+  materialCostforRun: 8280
+  name: Water
+  priceEach: 611.98
+  priceForRunQty: 12239.6
+  profitEach: 1.4782125603864735
+  profitIskEach: 197
+  profitIskRun: 3959
+  profitRun: 1.4782125603864735
+  shortName: Watr
+  tech: 1
+  typeID: 3645
+3683:
+  amount: 20
+  amountperHour: 40.0
+  cycleTimeHours: 0.5
+  cycleTimeMinutes: 1800
+  inputs:
+  - amount: 3000
+    name: Noble Gas
+    perhour: 6000.0
+    typeID: 2310
+  materialCostEach: 372.0
+  materialCostforRun: 7440
+  name: Oxygen
+  priceEach: 613.03
+  priceForRunQty: 12260.599999999999
+  profitEach: 1.6479301075268817
+  profitIskEach: 241
+  profitIskRun: 4820
+  profitRun: 1.6479301075268815
+  shortName: Oxygn
+  tech: 1
+  typeID: 3683
+3689:
+  amount: 5
+  amountperHour: 5.0
+  cycleTimeHours: 1.0
+  cycleTimeMinutes: 3600
+  inputs:
+  - amount: 40
+    name: Reactive Metals
+    perhour: 40.0
+    typeID: 2398
+  - amount: 40
+    name: Precious Metals
+    perhour: 40.0
+    typeID: 2399
+  materialCostEach: 5358.0
+  materialCostforRun: 26790
+  name: Mechanical Parts
+  priceEach: 7497.6
+  priceForRunQty: 37488.0
+  profitEach: 1.3993281075027997
+  profitIskEach: 2139
+  profitIskRun: 10698
+  profitRun: 1.3993281075027995
+  shortName: MechniclParts
+  tech: 2
+  typeID: 3689
+3691:
+  amount: 5
+  amountperHour: 5.0
+  cycleTimeHours: 1.0
+  cycleTimeMinutes: 3600
+  inputs:
+  - amount: 40
+    name: Electrolytes
+    perhour: 40.0
+    typeID: 2390
+  - amount: 40
+    name: Oxygen
+    perhour: 40.0
+    typeID: 3683
+  materialCostEach: 7300.2
+  materialCostforRun: 36501
+  name: Synthetic Oil
+  priceEach: 7714.5
+  priceForRunQty: 38572.5
+  profitEach: 1.056751869811786
+  profitIskEach: 414
+  profitIskRun: 2071
+  profitRun: 1.056751869811786
+  shortName: SyntheticOil
+  tech: 2
+  typeID: 3691
+3693:
+  amount: 5
+  amountperHour: 5.0
+  cycleTimeHours: 1.0
+  cycleTimeMinutes: 3600
+  inputs:
+  - amount: 40
+    name: Bacteria
+    perhour: 40.0
+    typeID: 2393
+  - amount: 40
+    name: Proteins
+    perhour: 40.0
+    typeID: 2395
+  materialCostEach: 13396.6
+  materialCostforRun: 66983
+  name: Fertilizer
+  priceEach: 8390.56
+  priceForRunQty: 41952.799999999996
+  profitEach: 0.6263201110729587
+  profitIskEach: -5007
+  profitIskRun: -25031
+  profitRun: 0.6263201110729587
+  shortName: Frtilizr
+  tech: 2
+  typeID: 3693
+3695:
+  amount: 5
+  amountperHour: 5.0
+  cycleTimeHours: 1.0
+  cycleTimeMinutes: 3600
+  inputs:
+  - amount: 40
+    name: Biofuels
+    perhour: 40.0
+    typeID: 2396
+  - amount: 40
+    name: Industrial Fibers
+    perhour: 40.0
+    typeID: 2397
+  materialCostEach: 6817.6
+  materialCostforRun: 34088
+  name: Polytextiles
+  priceEach: 4510.37
+  priceForRunQty: 22551.85
+  profitEach: 0.661577387937104
+  profitIskEach: -2308
+  profitIskRun: -11537
+  profitRun: 0.661577387937104
+  shortName: Polytextils
+  tech: 2
+  typeID: 3695
+3697:
+  amount: 5
+  amountperHour: 5.0
+  cycleTimeHours: 1.0
+  cycleTimeMinutes: 3600
+  inputs:
+  - amount: 40
+    name: Oxidizing Compound
+    perhour: 40.0
+    typeID: 2392
+  - amount: 40
+    name: Silicon
+    perhour: 40.0
+    typeID: 9828
+  materialCostEach: 8929.4
+  materialCostforRun: 44647
+  name: Silicate Glass
+  priceEach: 11615.99
+  priceForRunQty: 58079.95
+  profitEach: 1.3008701592492218
+  profitIskEach: 2686
+  profitIskRun: 13432
+  profitRun: 1.3008701592492216
+  shortName: SilicateGlass
+  tech: 2
+  typeID: 3697
+3725:
+  amount: 5
+  amountperHour: 5.0
+  cycleTimeHours: 1.0
+  cycleTimeMinutes: 3600
+  inputs:
+  - amount: 40
+    name: Proteins
+    perhour: 40.0
+    typeID: 2395
+  - amount: 40
+    name: Biofuels
+    perhour: 40.0
+    typeID: 2396
+  materialCostEach: 9707.6
+  materialCostforRun: 48538
+  name: Livestock
+  priceEach: 7679.78
+  priceForRunQty: 38398.9
+  profitEach: 0.7911100580988091
+  profitIskEach: -2028
+  profitIskRun: -10140
+  profitRun: 0.7911100580988092
+  shortName: Livstock
+  tech: 2
+  typeID: 3725
+3775:
+  amount: 5
+  amountperHour: 5.0
+  cycleTimeHours: 1.0
+  cycleTimeMinutes: 3600
+  inputs:
+  - amount: 40
+    name: Bacteria
+    perhour: 40.0
+    typeID: 2393
+  - amount: 40
+    name: Biomass
+    perhour: 40.0
+    typeID: 3779
+  materialCostEach: 8467.2
+  materialCostforRun: 42336
+  name: Viral Agent
+  priceEach: 5637.13
+  priceForRunQty: 28185.65
+  profitEach: 0.6657608182161753
+  profitIskEach: -2831
+  profitIskRun: -14151
+  profitRun: 0.6657608182161754
+  shortName: VirlAgnt
+  tech: 2
+  typeID: 3775
+3779:
+  amount: 20
+  amountperHour: 40.0
+  cycleTimeHours: 0.5
+  cycleTimeMinutes: 1800
+  inputs:
+  - amount: 3000
+    name: Planktic Colonies
+    perhour: 6000.0
+    typeID: 2286
+  materialCostEach: 481.5
+  materialCostforRun: 9630
+  name: Biomass
+  priceEach: 444.67
+  priceForRunQty: 8893.4
+  profitEach: 0.9235098650051922
+  profitIskEach: -37
+  profitIskRun: -737
+  profitRun: 0.923509865005192
+  shortName: Biomass
+  tech: 1
+  typeID: 3779
+3828:
+  amount: 5
+  amountperHour: 5.0
+  cycleTimeHours: 1.0
+  cycleTimeMinutes: 3600
+  inputs:
+  - amount: 40
+    name: Reactive Metals
+    perhour: 40.0
+    typeID: 2398
+  - amount: 40
+    name: Toxic Metals
+    perhour: 40.0
+    typeID: 2400
+  materialCostEach: 4037.2
+  materialCostforRun: 20186
+  name: Construction Blocks
+  priceEach: 6883.54
+  priceForRunQty: 34417.7
+  profitEach: 1.705028237392252
+  profitIskEach: 2846
+  profitIskRun: 14231
+  profitRun: 1.7050282373922518
+  shortName: ConstructionBlocks
+  tech: 2
+  typeID: 3828
+9828:
+  amount: 20
+  amountperHour: 40.0
+  cycleTimeHours: 0.5
+  cycleTimeMinutes: 1800
+  inputs:
+  - amount: 3000
+    name: Felsic Magma
+    perhour: 6000.0
+    typeID: 2307
+  materialCostEach: 661.5
+  materialCostforRun: 13230
+  name: Silicon
+  priceEach: 617.35
+  priceForRunQty: 12347.0
+  profitEach: 0.9332577475434619
+  profitIskEach: -45
+  profitIskRun: -883
+  profitRun: 0.9332577475434618
+  shortName: Silicon
+  tech: 1
+  typeID: 9828
+9830:
+  amount: 5
+  amountperHour: 5.0
+  cycleTimeHours: 1.0
+  cycleTimeMinutes: 3600
+  inputs:
+  - amount: 40
+    name: Plasmoids
+    perhour: 40.0
+    typeID: 2389
+  - amount: 40
+    name: Electrolytes
+    perhour: 40.0
+    typeID: 2390
+  materialCostEach: 4884.4
+  materialCostforRun: 24422
+  name: Rocket Fuel
+  priceEach: 9148.99
+  priceForRunQty: 45744.95
+  profitEach: 1.8731041683727787
+  profitIskEach: 4264
+  profitIskRun: 21322
+  profitRun: 1.8731041683727785
+  shortName: RocketFuel
+  tech: 2
+  typeID: 9830
+9832:
+  amount: 5
+  amountperHour: 5.0
+  cycleTimeHours: 1.0
+  cycleTimeMinutes: 3600
+  inputs:
+  - amount: 40
+    name: Electrolytes
+    perhour: 40.0
+    typeID: 2390
+  - amount: 40
+    name: Water
+    perhour: 40.0
+    typeID: 3645
+  materialCostEach: 7291.8
+  materialCostforRun: 36459
+  name: Coolant
+  priceEach: 10083.84
+  priceForRunQty: 50419.2
+  profitEach: 1.3829013412326174
+  profitIskEach: 2792
+  profitIskRun: 13960
+  profitRun: 1.3829013412326174
+  shortName: Coolnt
+  tech: 2
+  typeID: 9832
+9834:
+  amount: 3
+  amountperHour: 3.0
+  cycleTimeHours: 1.0
+  cycleTimeMinutes: 3600
+  inputs:
+  - amount: 10
+    name: Water-Cooled CPU
+    perhour: 10.0
+    typeID: 2328
+  - amount: 10
+    name: Transmitter
+    perhour: 10.0
+    typeID: 9840
+  materialCostEach: 43893.333333333336
+  materialCostforRun: 131680
+  name: Guidance Systems
+  priceEach: 61244.9
+  priceForRunQty: 183734.7
+  profitEach: 1.3953121202916159
+  profitIskEach: 17351
+  profitIskRun: 52054
+  profitRun: 1.395312120291616
+  shortName: GuidnceSystems
+  tech: 3
+  typeID: 9834
+9836:
+  amount: 5
+  amountperHour: 5.0
+  cycleTimeHours: 1.0
+  cycleTimeMinutes: 3600
+  inputs:
+  - amount: 40
+    name: Toxic Metals
+    perhour: 40.0
+    typeID: 2400
+  - amount: 40
+    name: Chiral Structures
+    perhour: 40.0
+    typeID: 2401
+  materialCostEach: 5566.2
+  materialCostforRun: 27831
+  name: Consumer Electronics
+  priceEach: 5993.9
+  priceForRunQty: 29969.5
+  profitEach: 1.0768387769034529
+  profitIskEach: 427
+  profitIskRun: 2138
+  profitRun: 1.076838776903453
+  shortName: ConsumrElectrnics
+  tech: 2
+  typeID: 9836
+9838:
+  amount: 5
+  amountperHour: 5.0
+  cycleTimeHours: 1.0
+  cycleTimeMinutes: 3600
+  inputs:
+  - amount: 40
+    name: Plasmoids
+    perhour: 40.0
+    typeID: 2389
+  - amount: 40
+    name: Water
+    perhour: 40.0
+    typeID: 3645
+  materialCostEach: 7384.4
+  materialCostforRun: 36922
+  name: Superconductors
+  priceEach: 8027.08
+  priceForRunQty: 40135.4
+  profitEach: 1.0870321217702184
+  profitIskEach: 642
+  profitIskRun: 3213
+  profitRun: 1.0870321217702184
+  shortName: Suprconductors
+  tech: 2
+  typeID: 9838
+9840:
+  amount: 5
+  amountperHour: 5.0
+  cycleTimeHours: 1.0
+  cycleTimeMinutes: 3600
+  inputs:
+  - amount: 40
+    name: Plasmoids
+    perhour: 40.0
+    typeID: 2389
+  - amount: 40
+    name: Chiral Structures
+    perhour: 40.0
+    typeID: 2401
+  materialCostEach: 6081.0
+  materialCostforRun: 30405
+  name: Transmitter
+  priceEach: 8819.16
+  priceForRunQty: 44095.8
+  profitEach: 1.4502812037493833
+  profitIskEach: 2738
+  profitIskRun: 13690
+  profitRun: 1.4502812037493835
+  shortName: Trnsmittr
+  tech: 2
+  typeID: 9840
+9842:
+  amount: 5
+  amountperHour: 5.0
+  cycleTimeHours: 1.0
+  cycleTimeMinutes: 3600
+  inputs:
+  - amount: 40
+    name: Chiral Structures
+    perhour: 40.0
+    typeID: 2401
+  - amount: 40
+    name: Silicon
+    perhour: 40.0
+    typeID: 9828
+  materialCostEach: 8531.2
+  materialCostforRun: 42656
+  name: Miniature Electronics
+  priceEach: 9528.11
+  priceForRunQty: 47640.55
+  profitEach: 1.116854604276069
+  profitIskEach: 996
+  profitIskRun: 4984
+  profitRun: 1.1168546042760692
+  shortName: MiniElectrnics
+  tech: 2
+  typeID: 9842
+9846:
+  amount: 3
+  amountperHour: 3.0
+  cycleTimeHours: 1.0
+  cycleTimeMinutes: 3600
+  inputs:
+  - amount: 10
+    name: Supertensile Plastics
+    perhour: 10.0
+    typeID: 2312
+  - amount: 10
+    name: Mechanical Parts
+    perhour: 10.0
+    typeID: 3689
+  - amount: 10
+    name: Miniature Electronics
+    perhour: 10.0
+    typeID: 9842
+  materialCostEach: 87360.33333333333
+  materialCostforRun: 262081
+  name: Planetary Vehicles
+  priceEach: 74674.76
+  priceForRunQty: 224024.27999999997
+  profitEach: 0.8547902366062401
+  profitIskEach: -12686
+  profitIskRun: -38057
+  profitRun: 0.85479023660624
+  shortName: PlnetaryVehicls
+  tech: 3
+  typeID: 9846
+9848:
+  amount: 3
+  amountperHour: 3.0
+  cycleTimeHours: 1.0
+  cycleTimeMinutes: 3600
+  inputs:
+  - amount: 10
+    name: Mechanical Parts
+    perhour: 10.0
+    typeID: 3689
+  - amount: 10
+    name: Consumer Electronics
+    perhour: 10.0
+    typeID: 9836
+  materialCostEach: 44971.666666666664
+  materialCostforRun: 134915
+  name: Robotics
+  priceEach: 61292.79
+  priceForRunQty: 183878.37
+  profitEach: 1.3629201348997517
+  profitIskEach: 16321
+  profitIskRun: 48963
+  profitRun: 1.3629201348997517
+  shortName: Robotics
+  tech: 3
+  typeID: 9848
+12836:
+  amount: 3
+  amountperHour: 3.0
+  cycleTimeHours: 1.0
+  cycleTimeMinutes: 3600
+  inputs:
+  - amount: 10
+    name: Biocells
+    perhour: 10.0
+    typeID: 2329
+  - amount: 10
+    name: Nanites
+    perhour: 10.0
+    typeID: 2463
+  materialCostEach: 38809.333333333336
+  materialCostforRun: 116428
+  name: Transcranial Microcontroller
+  priceEach: 62903.68
+  priceForRunQty: 188711.04
+  profitEach: 1.6208389734428144
+  profitIskEach: 24094
+  profitIskRun: 72283
+  profitRun: 1.6208389734428146
+  shortName: TrnscrnilMicrcontrllr
+  tech: 3
+  typeID: 12836
+15317:
+  amount: 5
+  amountperHour: 5.0
+  cycleTimeHours: 1.0
+  cycleTimeMinutes: 3600
+  inputs:
+  - amount: 40
+    name: Proteins
+    perhour: 40.0
+    typeID: 2395
+  - amount: 40
+    name: Biomass
+    perhour: 40.0
+    typeID: 3779
+  materialCostEach: 12044.2
+  materialCostforRun: 60221
+  name: Genetically Enhanced Livestock
+  priceEach: 7125.5
+  priceForRunQty: 35627.5
+  profitEach: 0.5916125604025173
+  profitIskEach: -4919
+  profitIskRun: -24594
+  profitRun: 0.5916125604025174
+  shortName: GneticllyEnhncedLivstock
+  tech: 2
+  typeID: 15317
+17136:
+  amount: 3
+  amountperHour: 3.0
+  cycleTimeHours: 1.0
+  cycleTimeMinutes: 3600
+  inputs:
+  - amount: 10
+    name: Synthetic Oil
+    perhour: 10.0
+    typeID: 3691
+  - amount: 10
+    name: Superconductors
+    perhour: 10.0
+    typeID: 9838
+  materialCostEach: 52472.0
+  materialCostforRun: 157416
+  name: Ukomi Superconductor
+  priceEach: 76289.87
+  priceForRunQty: 228869.61
+  profitEach: 1.4539158027138281
+  profitIskEach: 23817
+  profitIskRun: 71453
+  profitRun: 1.4539158027138281
+  shortName: UkomiSuprconductor
+  tech: 3
+  typeID: 17136
+17392:
+  amount: 3
+  amountperHour: 3.0
+  cycleTimeHours: 1.0
+  cycleTimeMinutes: 3600
+  inputs:
+  - amount: 10
+    name: Supertensile Plastics
+    perhour: 10.0
+    typeID: 2312
+  - amount: 10
+    name: Microfiber Shielding
+    perhour: 10.0
+    typeID: 2327
+  materialCostEach: 69845.33333333333
+  materialCostforRun: 209536
+  name: Data Chips
+  priceEach: 78734.91
+  priceForRunQty: 236204.73
+  profitEach: 1.127275169899206
+  profitIskEach: 8889
+  profitIskRun: 26668
+  profitRun: 1.1272751698992058
+  shortName: DataChips
+  tech: 3
+  typeID: 17392
+17898:
+  amount: 3
+  amountperHour: 3.0
+  cycleTimeHours: 1.0
+  cycleTimeMinutes: 3600
+  inputs:
+  - amount: 10
+    name: Polyaramids
+    perhour: 10.0
+    typeID: 2321
+  - amount: 10
+    name: Transmitter
+    perhour: 10.0
+    typeID: 9840
+  materialCostEach: 65496.333333333336
+  materialCostforRun: 196489
+  name: High-Tech Transmitter
+  priceEach: 76554.04
+  priceForRunQty: 229662.12
+  profitEach: 1.1688294001190904
+  profitIskEach: 11057
+  profitIskRun: 33173
+  profitRun: 1.1688294001190906
+  shortName: High-TechTrnsmittr
+  tech: 3
+  typeID: 17898
+28974:
+  amount: 3
+  amountperHour: 3.0
+  cycleTimeHours: 1.0
+  cycleTimeMinutes: 3600
+  inputs:
+  - amount: 10
+    name: Livestock
+    perhour: 10.0
+    typeID: 3725
+  - amount: 10
+    name: Viral Agent
+    perhour: 10.0
+    typeID: 3775
+  materialCostEach: 44390.0
+  materialCostforRun: 133170
+  name: Vaccines
+  priceEach: 46761.9
+  priceForRunQty: 140285.7
+  profitEach: 1.0534332056769542
+  profitIskEach: 2371
+  profitIskRun: 7115
+  profitRun: 1.0534332056769544
+  shortName: Vaccins
+  tech: 3
+  typeID: 28974
